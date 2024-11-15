@@ -1,3 +1,6 @@
+## Matt additions
+setwd("C:/Users/Matt Woodstock/Documents/USGWEM Ecospace/Vulnerability Check")
+
 ## Naming conventions
 ## 'sim' --> Related to Ecosim
 ## 'spa' --> Related to Ecospace
@@ -19,7 +22,7 @@ srt_year     = 1980
 ## Set up inputs ---------------------------------------------------------------
 ## A group of Ecospace simulations to compare are termed an "Experiment"
 
-experiment_choice <- 1  # Set to 1 for Experiment 1, or 2 for Experiment 2
+experiment_choice <- 2  # Set to 1 for Experiment 1, or 2 for Experiment 2
 
 if (experiment_choice == 1) {
   ## Experiment 1 --------------------------------------------------------------
